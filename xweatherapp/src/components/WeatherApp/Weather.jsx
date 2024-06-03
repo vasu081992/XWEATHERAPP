@@ -56,7 +56,7 @@ console.log("weather data",weatherdata)
     <div className={styles.backgroundPage}>
       
       <div className={styles.elems}>
-      <input placeholder='Enter city name' className={styles.input} value={cityName} onChange={handleInputCity}></input>
+      <input type="text" placeholder='Enter city name' className={styles.input} value={cityName} onChange={handleInputCity}></input>
       <button onClick={fetchCityData}>Search</button>
       </div>
 {!loading && (
