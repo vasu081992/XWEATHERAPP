@@ -1,0 +1,27 @@
+.weather-card{
+  height:150px;
+  width:300px;
+  background-color: rgb(252, 247, 247);
+  color:black;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.weather-cards{
+
+  display:flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+margin-top: 50px;
+
+}
+
+.card-texts{
+  display:flex;
+  flex-direction: column;
+}
+
+.title{
+  font-weight: 600;
+  font-size: 28px;
+}
